@@ -16,7 +16,7 @@ unsigned int reverse(unsigned int A) {
     int ans=0;
     while(A>0)
     {
-        cout<<A<<"haha";
+       // cout<<A<<"haha";
         ans=ans<<1;
         if(A&1)
         {
