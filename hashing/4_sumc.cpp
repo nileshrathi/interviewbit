@@ -31,7 +31,7 @@ vector<vector<int> > fourSum(vector<int> &A, int B) {
                     {
                         for(int jj=0;jj<j->second.size();jj++)
                         {
-                            cout<<i->second[ii].first<<" "<<i->second[ii].second<<" "<<j->second[jj].first<<" "<<j->second[jj].second<<"\n";
+                           // cout<<i->second[ii].first<<" "<<i->second[ii].second<<" "<<j->second[jj].first<<" "<<j->second[jj].second<<"\n";
                             unordered_set<int> s;
                             s.insert(i->second[ii].first);
                             s.insert(i->second[ii].second);
